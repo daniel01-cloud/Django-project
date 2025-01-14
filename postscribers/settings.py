@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
-    'quotegenerator',
+        'news',
     'crispy_forms',
     'crispy_bootstrap4',
 ]
