@@ -22,8 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
     path('', include('users.urls')),
-    path('', include('quotegenerator.urls')), 
-
+    path('news/', include('news.urls')),
 ]
 
 if settings.DEBUG:
